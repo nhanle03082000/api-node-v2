@@ -1,8 +1,8 @@
 version: '3'
 services:
   twitter:
-    image: duthanhduoc/twitter:v0
+    image: dev/twitter:v2
     ports:
       - '4000:4000'
     volumes:
-      - '~/Documents/DuocEdu/NodeJs-Super/Twitter/uploads:/app/uploads'
+      - '~/Documents/Study/api/api-node-v2/uploads:/app/uploads'
